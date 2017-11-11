@@ -36,10 +36,12 @@ INSERT INTO Artist (name)
     ('SZA'),
     ('James Blake');
 
-INSERT INTO Album (name)
+INSERT INTO Album (name, artist_id)
   VALUES
-    ('Riot'),
-    ('Beyonce'),
-    ('X'),
-    ('Ctrl'),
-    ('Overgrown');
+    ('Riot', 1),
+    ('Beyonce', 2),
+    ('X', 3),
+    ('Ctrl', 4),
+    ('Overgrown', 5 );
+
+INSERT INTO
