@@ -26,3 +26,20 @@ Create Table Artist (
   id SERIAL UNIQUE,
   name varchar(30)
 );
+
+
+INSERT INTO Artist (name)
+  VALUES
+    ('Parmore'),
+    ('Beyonce'),
+    ('Ed Sheeran'),
+    ('SZA'),
+    ('James Blake');
+
+INSERT INTO Album (name)
+  VALUES
+    ('Riot'),
+    ('Beyonce'),
+    ('X'),
+    ('Ctrl'),
+    ('Overgrown');
