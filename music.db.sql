@@ -1,13 +1,13 @@
-Create Table Songwriter{
+Create Table Songwriter (
   id SERIAL UNIQUE,
   name varchar(30)
-}
+)
 
-Create Table Song {
+Create Table Song (
   id SERIAL UNIQUE,
   name varchar(30),
   songwriter_id integer
-}
+)
 
 Create Table Track {
   id SERIAL UNIQUE,
@@ -24,5 +24,5 @@ Create Table Album {
 
 Create Table Artist {
   id SERIAL UNIQUE,
-  name varchar(30)s
+  name varchar(30)
 }
