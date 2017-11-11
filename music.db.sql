@@ -16,10 +16,13 @@ Create Table Track {
   album_id integer
 }
 
-Create Table Album (
+Create Table Album {
   id SERIAL UNIQUE,
   name varchar(30),
   artist_id integer
-)
+}
 
-Create Table
+Create Table Artist {
+  id SERIAL UNIQUE,
+  name varchar(30)s
+}
